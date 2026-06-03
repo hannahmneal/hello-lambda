@@ -39,9 +39,9 @@ jobs:
           aws-region: us-east-2 
 
       - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v3
+        uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 1.10
+          terraform_version: 1.10.0
 
       - name: Terraform Init
         run: terraform --version && terraform init
