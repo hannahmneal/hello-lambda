@@ -1,3 +1,5 @@
+# noqa
+
 name: Deploy Lambda
 
 on:
